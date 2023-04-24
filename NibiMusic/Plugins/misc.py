@@ -5,6 +5,7 @@ import aiohttp
 import yt_dlp
 from pyrogram.types import Message
 from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pyrogram.errors import UserAlreadyParticipant
 from NibiMusic.Modules.helpers.decorators import authorized_users_only
 from NibiMusic.Modules.cache.clientbot import client as user
@@ -42,7 +43,7 @@ async def join_chat(c: Client, m: Message):
         return await user.send_message(chat_id, "» ᴀssɪsᴛᴀɴᴛ ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ.​")
 
 
-# ×=======================> sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ <==================================× #
+# ×=======================> sᴏɴɢ sᴇᴀʀᴄʜ <==================================× #
 
 @Client.on_message(filters.command(["search", "lol"], prefixes=["/", "!"]))
 async def ytsearch(_, message: Message):
