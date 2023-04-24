@@ -3,7 +3,7 @@ from os import path
 from yt_dlp import YoutubeDL
 
 from NibiMusic.config import DURATION_LIMIT
-from -NibiMusic.Modules.helpers.errors import DurationLimitError
+from NibiMusic.Modules.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio/best",
