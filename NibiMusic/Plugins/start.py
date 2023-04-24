@@ -52,3 +52,18 @@ async def start_(client: Client, message: Message):
 )
     
     
+@Client.on_message(filters.command(["repo", "source"]))
+async def help(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://te.legra.ph/file/56557bd94afbe895ae483.jpg",
+        caption=f"""ʜᴇʀᴇ ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ғᴏʀᴋ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀs ✨""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/NirjonX69/NibiMusic"
+                    )
+                ]
+            ]
+        ),
+    )
