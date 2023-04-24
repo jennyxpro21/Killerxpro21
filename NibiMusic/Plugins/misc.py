@@ -71,7 +71,7 @@ async def ytsearch(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="ᴄʟᴏsᴇ",
-                        callback_data=f"forceclose abc|{message.from_user.id}",
+                        callback_data="close_play",
                     ),
                 ]
             ]
