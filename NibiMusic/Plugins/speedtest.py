@@ -40,7 +40,7 @@ async def speedtest_function(client, message):
 **» __sᴩᴏɴsᴏʀ :__** {result['server']['sponsor']}
 **» __ʟᴀᴛᴇɴᴄʏ :__** {result['server']['latency']}  
 **» __ᴩɪɴɢ :__** {result['ping']}"""
-    msg = await NibiMusic.send_photo(
+    msg = await message.reply_photo(
         chat_id=message.chat.id, 
         photo=result["share"], 
         caption=output
