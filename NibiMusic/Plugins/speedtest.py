@@ -23,7 +23,7 @@ def testspeed(m):
     return result
 
 
-@Client.on_message(filters.command(["speedtest"], prefixes=["/", "!"]))
+@Client.on_message(filters.command(["speedtest", "spt"], prefixes=["/", "!"]))
 async def speedtest_function(client, message):
     m = await message.reply_text("💫 ᴛʀʏɪɴɢ ᴛᴏ ᴄʜᴇᴄᴋ ᴜᴩʟᴏᴀᴅ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ sᴩᴇᴇᴅ...")
     loop = asyncio.get_event_loop()
