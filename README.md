@@ -1,6 +1,6 @@
-# ɴɪʙɪ ᴍᴜsɪᴄ
+# 𝙆𝙄𝙇𝙇𝙀𝙍 𝙓 𝙈𝙐𝙎𝙄𝘾 🦋
 
-<p align="center"><img src="https://graph.org/file/1aa17a6f7725b70e05f62.jpg" width="300"></a></p>
+<p align="center"><img src="https://graph.org/file/cea26e48787ae6e49ab73.jpg" width="300"></a></p>
 <p align="center">
 
 
